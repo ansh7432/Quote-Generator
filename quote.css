@@ -1,0 +1,63 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,600&family=Poppins:wght@600&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Mukta&family=Playfair:ital,wght@1,600&family=Poppins:wght@600&display=swap');
+
+
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.28' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.cont{
+    border-radius: 50px;
+    margin-left: 400px;
+    width: 50%;
+    margin-top: 250px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.cont h1{
+    font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: #212A3E;
+  text-decoration: underline;
+}
+.cont h2{
+    color: #394867;
+
+    font-family: 'Mukta', sans-serif;
+}
+
+.cont h3{
+    color: #44445e;
+    font-family: 'Mukta', sans-serif;
+}
+.cont button{
+    background: none;
+    position: relative;
+    font-family:sans-serif;
+    padding: 3px;
+    margin-bottom: 20px;
+    left: 330px;
+    box-shadow: 8px 8px 8px 8px #888888;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
